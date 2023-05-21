@@ -16,8 +16,6 @@ const removeDuplicates = function(nums) {
           nums[k] = nums[i]
       }
   }
-  console.log(nums)
-
   return k + 1
 };
 
